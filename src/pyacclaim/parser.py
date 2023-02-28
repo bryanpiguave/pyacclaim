@@ -236,8 +236,8 @@ def loadAMC(asfdata, filepath):
         data = f.read().splitlines()
 
     for idx, line in enumerate(data):
-        if line == ":DEGREES":
-            data = data[idx + 1 :]
+        if line[0] not in [':', '#']:
+            data = data[idx:]
             break
 
     isdegree = asfdata["units"]["angle"] in ["deg", "degree", "degrees"]
