@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyacclaim"
+version = "0.0.1"
+authors = [
+  { name="Stephen Baek", email="github@stephenbaek.com" },
+]
+description = "A generic Acclaim motion capture data (AMC/ASF) parser."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/stephenbaek/pyacclaim"
+"Bug Tracker" = "https://github.com/stephenbaek/pyacclaim/issues"
