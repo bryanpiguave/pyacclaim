@@ -5,10 +5,6 @@ Acclaim Motion Capture (AMC) data is a data format for storing motion capture da
 ```bash
 pip install pyacclaim
 ```
-Additionally, if you wish to use the viewer, please install `open3d`:
-```bash
-pip install open3d
-```
 
 ## Usage
 ```python
