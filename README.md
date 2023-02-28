@@ -17,3 +17,4 @@ from pyacclaim import loadASF, loadAMC
 asf = loadASF('test.asf')
 amc = loadAMC(asf, 'test.amc')
 ```
+Note that the test files (`test.asf` and `test.amc`) are originally from the CMU Graphics Lab Motion Capture Database (http://mocap.cs.cmu.edu/) - 'Subjet 01/Motion 01'
